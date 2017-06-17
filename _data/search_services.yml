@@ -1,5 +1,5 @@
 - id: baidu
-  name: 百度
+  name: 百度搜索
   url: http://www.baidu.com/s?wd=
   suffix: "&ie=utf-8"
   shortcut: 百度
