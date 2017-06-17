@@ -1,0 +1,142 @@
+- section: public
+  categories:
+  - category: 生活
+    links:
+    - name: 淘宝网
+      style: orange
+      url: http://www.taobao.com
+
+    - name: 淘宝网
+      style: orange
+      url: http://www.taobao.com
+
+    - name: 淘宝网
+      style: orange
+      url: http://www.taobao.com
+
+  - category: 工具
+    links:
+    - name: 微信网页版
+      icon: wechat green
+      style: basic
+      url: http://wx.qq.com/
+
+    - name: 网易邮箱
+      icon: mail red
+      style: basic
+      url: http://email.163.com/
+
+    - name: QQ邮箱
+      icon: qq black
+      style: basic
+      url: https://mail.qq.com/
+
+    - name: 新浪邮箱
+      style: basic
+      url: https://mail.sina.com.cn/
+
+    - name: Gmail
+      icon: google red
+      style: basic
+      url: http://mail.google.com/
+
+    - name: 百度翻译
+      icon: paw blue
+      style: basic
+      url: http://fanyi.baidu.com/
+
+  - category: 知识
+    links:
+    - name: 知乎
+      style: blue
+      url: http://www.zhihu.com/
+
+    - name: Quora
+      icon: quora red
+      style: basic
+      url: http://www.quora.com/
+
+    - name: GitHub
+      icon: github black
+      style: basic
+      url: http://github.com/
+
+  - category: 法律数据库
+    links:
+    - name: Coursera
+      style: basic
+      url: https://www.coursera.org/
+
+    - name: Tutorials Point
+      style: basic
+      url: https://www.tutorialspoint.com/
+
+    - name: Google Open Source
+      icon: code blue
+      style: basic
+      url: https://opensource.google.com/
+
+  - category: 律师工具
+    links:
+    - name: 文书样式
+      style: red
+      url: http://www.court.gov.cn/susongyangshi-75.html
+
+  - category: 娱乐
+    links:
+    - name: 优酷
+      style: basic
+      url: http://www.youku.com/
+
+    - name: 土豆
+      style: basic
+      url: http://www.tudou.com/
+
+    - name: Youtube
+      icon: youtube red
+      style: basic
+      url: http://www.youtube.com/
+
+    - name: 爱奇艺
+      style: basic
+      url: http://www.iqiyi.com/
+
+    - name: 芒果TV
+      style: basic
+      url: http://www.mgtv.com/
+
+    - name: 腾讯视频
+      style: basic
+      url: https://v.qq.com/
+
+    - name: 哔哩哔哩
+      style: pink
+      url: http://www.bilibili.com/
+
+    - name: AcFun
+      style: basic
+      url: http://www.acfun.tv/
+
+    - name: 虾米
+      style: basic
+      url: http://www.xiami.com/
+
+- section: byr
+  categories:
+  - category: 企业公示系统
+    links:
+    - name: 企业公示系统
+      style: basic
+      url: http://www.gsxt.gov.cn/index.html
+
+  - category: 行政审批
+    links:
+    - name: 建筑行业资质查询
+      style: teal
+      url: http://jzsc.mohurd.gov.cn/asite/jsbpp/index
+
+  - category: 行业网站
+    links:
+    - name: 米律
+      style: basic
+      url: http://www.milv.cn
