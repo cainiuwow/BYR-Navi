@@ -398,7 +398,7 @@ var BaiduSuggestion = (function() {
                     if (W) { document.body.removeChild(W) }
                     var T = O("script");
                     T.setAttribute("charset", "gbk");
-                    T.src = "http://unionsug.baidu.com/su?wd=" + encodeURIComponent(U) + "&p=3&cb=BaiduSuggestion.callbacks.give" + S + "&t=" + V;
+                    T.src = "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=" + encodeURIComponent(U) + "&p=3&cb=BaiduSuggestion.callbacks.give" + S + "&t=" + V;
                     T.id = "bdSug_script";
                     document.body.appendChild(T) }, append_html: "", apd_body: true } }, createSugCallback: function(P) {
             return function(R) {
@@ -486,7 +486,7 @@ var BaiduSuggestion = (function() {
         L(".bdSug_mo", "background:#36c;color:#fff;");
         L(".bdSug_mo td", "font-weight:bold;");
         L(".bdSug_pre", "padding:0;margin:0;");
-        L(".bdsug_copy", "margin:0;background:transparent url(http://www.baidu.com/img/bd.gif) no-repeat;font-size:13px;color:#77c;text-decoration:none;padding:0 2px 0 16px;") }
+        L(".bdsug_copy", "margin:0;background:transparent url(https://www.baidu.com/img/bd.gif) no-repeat;font-size:13px;color:#77c;text-decoration:none;padding:0 2px 0 16px;") }
     A();
     var H = document.body.getElementsByTagName("INPUT");
     for (var K = 0, F = H.length; K < F; K++) {
