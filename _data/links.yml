@@ -10,17 +10,9 @@
       style: orange
       url: http://www.taobao.com
 
-          - name: 淘宝网
+    - name: 淘宝网
       style: orange
       url: http://www.taobao.com
-
-    - name: 美团网
-      style: blue
-      url: http://www.meituan.com
-
-    - name: 京东
-      style: red
-      url: http://www.jd.com/
 
   - category: 工具
     links:
