@@ -2,12 +2,52 @@
   categories:
   - category: 生活
     links:
+    - name: 淘宝网
+      style: orange
+      url: http://www.taobao.com
+ 
+    - name: 美团网
+      style: blue
+      url: http://www.meituan.com/
+
     - name: 京东
-      style: basic
+      style: red
       url: http://www.jd.com/
+
+    - name: 微博
+      icon: weibo red
+      style: basic
+      url: http://weibo.com/
+
+    - name: 爱奇艺
+      style: basic
+      url: http://www.iqiyi.com/
+
+    - name: 博海拾贝
+      style: basic
+      url: https://bohaishibei.com
+
+    - name: 喷嚏网
+      style: basic
+      url: http://www.dapenti.com/blog/index.asp
+
+    - name: 下厨房
+      icon: cutlery green
+      style: basic
+      url: https://www.xiachufang.com
+
+    - name: 什么值得买
+      style: basic
+      url: https://www.smzdm.com
+
 
   - category: 工具
     links:
+    - name: 微信网页版
+      icon: wechat green
+      style: basic
+      url: http://wx.qq.com/
+
     - name: 网易邮箱
       icon: mail red
       style: basic
