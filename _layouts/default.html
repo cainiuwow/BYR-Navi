@@ -12,7 +12,7 @@
     {% if page.home %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/customize-home.css' | relative_url }}">{% endif %}
     {% if page.analytics %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/customize-analytics.css' | relative_url }}">{% endif %}
     {% if page.donate %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/customize-donate.css' | relative_url }}">{% endif %}
-    {% if page.search %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/customize-search.css' | relative_url }}">{% endif %}
+<!--     {% if page.search %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/customize-search.css' | relative_url }}">{% endif %} -->
     {% if page.error %}<link rel="stylesheet" type="text/css" href="{{ '/assets/css/customize-error.css' | relative_url }}">{% endif %}
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/customize-masthead.css' | relative_url }}">
     <link rel="apple-touch-icon" type="image/png" href="{{ '/apple-touch-icon.png' | relative_url }}">
@@ -28,13 +28,13 @@
             {% if page.home %}{% include search.html %}{% endif %}
             {% if page.analytics %}{% include analytics_header.html %}{% endif %}
             {% if page.donate %}{% include donate_header.html %}{% endif %}
-            {% if page.search %}{% include search_header.html %}{% endif %}
+<!--        {% if page.search %}{% include search_header.html %}{% endif %}-->        
             {% if page.error %}{% include error_header.html %}{% endif %}
         </div>
         {{ content }}
         {% include footer.html %}
     </div>
-    {% include dimmer.html %}
+<!--     {% include dimmer.html %} -->
     <script type="text/javascript" src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.bootcss.com/semantic-ui/2.2.10/semantic.min.js"></script>
 <!--     {% if page.home %}<script type="text/javascript" src="//cdn.bootcss.com/moment.js/2.18.1/moment-with-locales.min.js"></script>{% endif %} -->
