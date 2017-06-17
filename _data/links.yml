@@ -10,6 +10,10 @@
       style: blue
       url: http://www.meituan.com
 
+    - name: 京东
+      style: red
+      url: http://www.jd.com/
+
   - category: 工具
     links:
     - name: 微信网页版
