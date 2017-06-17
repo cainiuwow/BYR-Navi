@@ -1,54 +1,96 @@
 ---
 layout: default
-title: 爱心投喂
+title: 关于本站
 donate: true
 ---
 
-<div class="ui vertical stripe quote segment">
-    <div class="ui equal width stackable internally celled grid">
-        <div class="center aligned row">
-            <div class="column">
-                <img class="ui centered medium rounded bordered image" src="{{ '/images/donate/alipay1.jpg' | relative_url }}" alt="alipay1.jpg">
-            </div>
-            <div class="column">
-                <img class="ui centered medium rounded bordered image" src="{{ '/images/donate/wechat1.jpg' | relative_url }}" alt="wechat1.jpg">
-            </div>
-        </div>
-    </div>
-</div>
-<div class="ui vertical stripe segment">
+<div id="about" class="ui vertical stripe segment">
     <div class="ui middle aligned stackable grid container">
-        <div class="row">
-            <div class="center aligned column">
-                <h3 class="ui header">您的每一次支持，都是开发者坚持的动力！</h3>
-                <p>如果您想自定义捐款数目，请扫描以下二维码。</p>
+        <div class="ui vertical segment">
+            <h3 style="color:#4183C4;">法林导航 </h3>
+            <h4>A Navigation Website for Falin</h4>
+            <div class="ui divider">
+            </div>
+            <p>
+                本站使用的是BYR-Navi的模板，经过跟作者沟通，已经得到授权，为了提高网站的速度，删除了大部分不常用代码，优化了代码，远程js/css选取了最优的cdn，现在速度能保证在2秒左右。
+            </p>
+            <p>
+                制作本站的目的是为了方便法律人士便捷搜索，集成了常用的大部分网站，如果有其他想加进来的网站，请联系我，如果常用，我将尽快添加进来。
+            </p>
+            <p>
+                感谢大家的支持！
+            </p>
+        </div>
+    </div>
+    <div id="gengxin" class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="ui vertical segment">
+                <h3>更 新 历 史</h3>
+                <div class="ui divider">
+                </div>
+                <p>
+                    2017年4月25日
+                </p>
+                <ol class="ui list">
+                    <li>完成本页面的修复调整工作； </li>
+                    <li>添加部分搜索规则页面。 </li>
+                </ol>
+                <p>
+                    2017年4月24日
+                </p>
+                <ol class="ui list">
+                    <li>添加LOGO；</li>
+                    <li>修改赞助页面，增加“关于本站”和“历史更新”。</li>
+                </ol>
+                <p>
+                    2017年4月23日
+                </p>
+                <ol class="ui list">
+                    <li>全站启用HTTPS协议，以保证用户完全；</li>
+                    <li>修复百度js在https协议下，无法调用http网站的bug；</li>
+                    <li>增加“帮助/更新”页面，为了帮助不会搜索的同行，以及方便查看历史更新；</li>
+                    <li>页面访问速度大幅度提高；</li>
+                    <li>还有些小BUG，改天再修改，不耽误用。</li>
+                </ol>
             </div>
         </div>
     </div>
-</div>
-<div class="ui vertical stripe quote segment">
-    <div class="ui equal width stackable internally celled grid">
-        <div class="center aligned row">
-            <div class="column">
-                <img class="ui centered medium rounded bordered image" src="{{ '/images/donate/alipay.jpg' | relative_url }}" alt="alipay.jpg">
-            </div>
-            <div class="column">
-                <img class="ui centered medium rounded bordered image" src="{{ '/images/donate/wechat.jpg' | relative_url }}" alt="wechat.jpg">
-            </div>
-        </div>
-    </div>
-</div>
-<div class="ui vertical stripe segment">
-    <div class="ui middle aligned stackable grid container">
-        <div class="row">
-            <div class="center aligned column">
-                <h3 class="ui header">无需矜持您的赞美与建议</h3>
-                <div class="ui large buttons">
-                    <a class="ui positive left labeled icon button" href="https://saythanks.io/to/{{ site.author }}" target="_blank"><i class="smile icon"></i>Say Thanks</a>
-                    <div class="or" data-text="或"></div>
-                    <a class="ui negative right labeled icon button" href="{{ site.repository_url }}/issues/new" target="_blank"><i class="bug icon"></i>Report Bug</a>
+    <div id="zanzhu" class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="center aligned column">
+                    <h3 class="ui header">您的每一发支持，都是开发者坚持的动力！</h3>
+                    <p>
+                        如果您想自定义捐款数目，请扫描以下二维码。
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <div class="ui vertical stripe quote segment">
+        <div class="ui equal width stackable internally celled grid">
+            <div class="center aligned row">
+                <div class="column">
+                    <img class="ui centered medium rounded bordered image" src="{{ '/images/donate/alipay.jpg' | relative_url }}" alt="alipay.jpg">
+                </div>
+                <div class="column">
+                    <img class="ui centered medium rounded bordered image" src="{{ '/images/donate/wechat.jpg' | relative_url }}" alt="wechat.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui vertical stripe segment">
+        <div class="ui middle aligned stackable grid container">
+            <div class="row">
+                <div class="center aligned column">
+                    <h3 class="ui header">留下您的宝贵建议！</h3>
+                    <div class="ui large buttons">
+                        <a class="ui positive left labeled icon button" href="https://falin.xyz{{ site.author }}" target="_blank"><i class="thumbs up outline icon"></i>i@cainiu.de</a>
+                        <div class="or" data-text="或">
+                        </div>
+                        <a class="ui negative right labeled icon button" href="{{ site.repository }}/issues" target="_blank"><i class="bug icon"></i>Report Bug</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
