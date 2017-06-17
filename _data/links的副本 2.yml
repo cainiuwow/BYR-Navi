@@ -48,6 +48,7 @@
 
   - category: 工具
     links:
+
     - name: QQ邮箱
       icon: qq black
       style: basic
@@ -62,16 +63,6 @@
       icon: google red
       style: basic
       url: http://mail.google.com/      
-
-    - name: '12306'
-      icon: train red
-      style: basic
-      url: http://www.12306.cn/
-
-    - name: 快递查询
-      icon: shipping olive
-      style: basic
-      url: http://www.kuaidi100.com/
 
     - name: 飞猪旅行
       icon: send green
@@ -149,12 +140,7 @@
       style: basic
       url: https://kindlefere.com
 
-    - name: GitHub
-      icon: github black
-      style: basic
-      url: http://github.com/
-
-  - category: 法律数据库
+  - category: 法律/案例检索
     links:
     - name: 无訟案例
       style: basic
@@ -238,56 +224,7 @@
       style: basic
       url: http://www.zuiming.net/51.html
 
-  - category: 娱乐
-    links:
-    - name: 优酷
-      style: basic
-      url: http://www.youku.com/
 
-    - name: 土豆
-      style: basic
-      url: http://www.tudou.com/
-
-    - name: Youtube
-      icon: youtube red
-      style: basic
-      url: http://www.youtube.com/
-
-    - name: 爱奇艺
-      style: basic
-      url: http://www.iqiyi.com/
-
-    - name: 芒果TV
-      style: basic
-      url: http://www.mgtv.com/
-
-    - name: 腾讯视频
-      style: basic
-      url: https://v.qq.com/
-
-    - name: 哔哩哔哩
-      style: pink
-      url: http://www.bilibili.com/
-
-    - name: AcFun
-      style: basic
-      url: http://www.acfun.tv/
-
-    - name: 吐槽
-      style: basic
-      url: http://www.tucao.tv/
-
-    - name: 腾讯动漫
-      style: basic
-      url: http://ac.qq.com/
-
-    - name: 虾米
-      style: basic
-      url: http://www.xiami.com/
-
-    - name: FIX字幕侠
-      style: basic
-      url: http://www.fixsub.com/
 
 - section: byr
   categories:
