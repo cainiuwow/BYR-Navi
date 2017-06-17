@@ -1,14 +1,8 @@
 - name: Semantic UI
   url: http://semantic-ui.com/
 
-- name: jQuery
-  url: http://jquery.com/
-
 - name: Font Awesome
   url: http://fontawesome.io/
-
-- name: Shields.io
-  url: http://shields.io/
 
 - name: Moment.js
   url: http://momentjs.com/
@@ -21,9 +15,6 @@
 
 - name: url.js
   url: https://github.com/websanova/js-url
-
-- name: ECharts
-  url: http://echarts.baidu.com/
 
 - name: Jekyll
   url: http://jekyllrb.com/

@@ -1,67 +1,69 @@
 - id: baidu
   name: 百度
-  url: http://baidu.com/s?wd=
+  url: http://www.baidu.com/s?wd=
   suffix: "&ie=utf-8"
   shortcut: 百度
   icon: paw blue
   style: basic
 
+- id: OpenLaw
+  name: OpenLaw
+  url: http://openlaw.cn/search/judgement/default?type=&typeValue=&keyword=
+  suffix: ''
+
+- id: fatiao
+  name: 法条搜索
+  url: http://law1.law-star.com/search?kw=
+  suffix: ''
+  shortcut: 法条搜索
+  style: basic
+
+- id: wenku
+  name: 百度文库
+  url: https://wenku.baidu.com/search?word=
+  suffix: "&ie=utf-8"
+  shortcut: 百度文库
+  style: basic
+
+- id: wechat
+  name: 搜微信
+  url: http://weixin.sogou.com/weixin?type=2&s_from=input&query=
+  suffix: ''
+  shortcut: 搜微信
+  style: basic
+
+- id: taobao
+  name: 淘宝
+  url: https://s.taobao.com/search?q=
+  shortcut: 淘宝
+  style: basic
+
+- id: susongyangshi
+  name: 文书模板
+  url: http://www.court.gov.cn/susongyangshi-75.html?key=
+  suffix: ''
+
+- id: baidufanyi
+  name: 百度翻译
+  url: http://fanyi.baidu.com/?aldtype=16047#zh/en/
+  suffix: ''
+
+- id: tianyan
+  name: 天眼查
+  url: http://www.tianyancha.com/search?key=
+  suffix: ""
+
 - id: google
   name: 谷歌
-  url: http://google.com/search?q=
+  url: http://www.google.com/search?q=
   shortcut: 谷歌
   icon: google red
   style: basic
-
-- id: googlemirror
-  name: 谷歌镜像
-  url: http://google.hbspy.moe/#q=
 
 - id: baidumap
   name: 百度地图
   url: http://api.map.baidu.com/geocoder?address=
   suffix: "&output=html"
-  shortcut: 地图
-  icon: map green
-  style: basic
-
-- id: ieeexplore
-  name: IEEE Xplore
-  url: http://ieeexplore.ieee.org/search/searchresult.jsp?queryText=
-
-- id: baiduxueshu
-  name: 百度学术
-  url: http://xueshu.baidu.com/s?wd=
-
-- id: googlescholar
-  name: 谷歌学术
-  url: http://scholar.google.com/scholar?q=
-
-- id: etymonline
-  name: Etymonline
-  url: http://www.etymonline.com/index.php?search=
-
-- id: mw
-  name: Merriam-Webster
-  url: https://www.merriam-webster.com/dictionary/
-
-- id: github
-  name: GitHub
-  url: http://github.com/search?q=
-
-- id: wechat
-  name: 微信公众号
-  url: http://weixin.sogou.com/weixin?query=
-
-- id: minapp
-  name: 微信小程序
-  url: https://minapp.com/miniapp/search/?query=
-
-- id: weibo
-  name: 微博
-  url: http://s.weibo.com/weibo/
-  shortcut: 微博
-  icon: weibo red
   style: basic
 
 - id: zhihu
@@ -73,27 +75,16 @@
 - id: douban
   name: 豆瓣
   url: http://www.douban.com/search?q=
-  shortcut: 豆瓣
-  style: basic
+
 
 - id: jd
   name: 京东
   url: http://search.jd.com/Search?keyword=
   suffix: "&enc=utf-8"
-  shortcut: 京东
-  style: basic
-
-- id: taobao
-  name: 淘宝
-  url: https://s.taobao.com/search?q=
-  shortcut: 淘宝
-  style: basic
-
-- id: xiami
-  name: 虾米
-  url: http://www.xiami.com/search?key=
-  shortcut: 虾米
-  style: basic
+ 
+- id: baiduxueshu
+  name: 百度学术
+  url: http://xueshu.baidu.com/s?wd=
 
 - id: panci
   name: 胖次
@@ -101,15 +92,3 @@
   suffix: "/td_0"
   shortcut: 胖次
   style: basic
-
-- id: byr
-  name: 北邮人论坛
-  url: http://search.icybee.cn/bbs/?key=
-
-- id: byrauthor
-  name: 北邮人论坛用户
-  url: http://search.lovezxp.com/?type=author&text=
-
-- id: byrarticle
-  name: 北邮人论坛文章
-  url: http://search.lovezxp.com/?type=article&text=
