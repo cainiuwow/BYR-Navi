@@ -7,31 +7,26 @@
                     {% for item in site.data.powered_by %}<a class="item" href="{{ item.url }}" target="_blank">{{ item.name }}</a>{% endfor %}
                 </div>
             </div>
-            <div class="three wide column">
-                <h4 class="ui inverted header">Forked by</h4>
-                <div class="ui inverted link list">
-                    {% for item in site.data.forked_by %}<a class="item" href="{{ item.url }}" target="_blank">{{ item.name }}</a>{% endfor %}
-                </div>
+    <div class="three wide column">
+        <h4 class="ui inverted header">WeChat Accounts</h4>
+            <div class="wechat">
+                <img class="ui centered medium rounded bordered image" src="{{ '/images/donate/falin.jpg' | relative_url }}" alt="falin.jpg">
             </div>
-            <div class="three wide column">
-                <h4 class="ui inverted header">About</h4>
+    </div>
+    <div class="three wide column">
+                <h4 class="ui inverted header">建议采纳者名单</h4>
                 <div class="ui inverted link list">
                     <a class="item" href="{{ site.author_url }}" target="_blank">{{ site.author }}</a>
                     <a class="item" href="{{ site.organization_url }}" target="_blank">{{ site.organization }}</a>
-                    <a class="item" href="https://saythanks.io/to/{{ site.author }}" target="_blank">Say Thanks</a>
+                   <p>---期待您的建议---</p>
                 </div>
-            </div>
+    </div>
             <div class="seven wide column">
                 <h4 class="ui inverted header">{{ site.name }}</h4>
                 <div class="ui inverted link list">
                     <div class="item">&copy; {{ site.time | date: "%Y" }} {{ site.organization }}</div>
                     <div class="item">Designed and built with all the love and passion in the world by {{ site.author }}.</div>
-                    <a class="item loading-trigger" href="{{ '/analytics/' | relative_url }}">
-                        Visits / Page Views:
-                        <span id="today-visits">0</span> / <span id="today-actions">0</span> (Today)
-                        &middot;
-                        <span id="yesterday-visits">0</span> / <span id="yesterday-actions">0</span> (Yesterday)
-                    </a>
+                    <a class="item" href="https://zhuanlan.zhihu.com/p/26387308" target="_blank">如果有好的建议，请点击留言</a>
                 </div>
             </div>
         </div>
