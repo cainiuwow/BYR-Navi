@@ -16,6 +16,11 @@ $(document).ready(function () {
 });
 
 // loading dimmer
+$('.loading-trigger').on('click', function () {
+    $('#loading-dimmer').dimmer('show');
+});
+
+//百度
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
