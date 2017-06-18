@@ -29,7 +29,7 @@
             {% if page.analytics %}{% include analytics_header.html %}{% endif %}
             {% if page.donate %}{% include donate_header.html %}{% endif %}
 <!--             {% if page.search %}{% include search_header.html %}{% endif %}        
- -->            {% if page.error %}{% include error_header.html %}{% endif %}
+ -->        {% if page.error %}{% include error_header.html %}{% endif %}
         </div>
         {{ content }}
         {% include footer.html %}
