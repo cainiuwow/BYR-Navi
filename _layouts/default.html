@@ -23,12 +23,12 @@
     {% include sidebar_menu.html %}
     <div class="pusher">
         <div class="ui inverted vertical masthead center aligned segment zoomed">
-            {% include menu.html %}
+            {% include menu.html %}js
             {% if page.home %}{% include search.html %}{% endif %}
             {% if page.analytics %}{% include analytics_header.html %}{% endif %}
             {% if page.donate %}{% include donate_header.html %}{% endif %}
-            {% if page.search %}{% include search_header.html %}{% endif %}        
-            {% if page.error %}{% include error_header.html %}{% endif %}
+<!--             {% if page.search %}{% include search_header.html %}{% endif %}        
+ -->            {% if page.error %}{% include error_header.html %}{% endif %}
         </div>
         {{ content }}
         {% include footer.html %}
@@ -40,6 +40,6 @@
     <script type="text/javascript" src="{{ '/assets/js/customize.js' | relative_url }}"></script>
     {% if page.home %}<script type="text/javascript" src="{{ '/assets/js/customize-home.js' | relative_url }}"></script>{% endif %}
     {% if page.search %}<script type="text/javascript" src="//cdn.bootcss.com/js-url/2.5.0/url.min.js"></script>{% endif %}
-    {% if page.search %}<script type="text/javascript" src="{{ '/assets/js/customize-search.js' | relative_url }}"></script>{% endif %}
+<!--     {% if page.search %}<script type="text/javascript" src="{{ '/assets/js/customize-search.js' | relative_url }}"></script>{% endif %} -->
 </body>
 </html>
