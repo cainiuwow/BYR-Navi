@@ -323,3 +323,7 @@
     - name: 简法帮
       style: basic
       url: https://www.jianfabang.com
+
+    - name: 百度脑图
+      style: basic
+      url: http://naotu.baidu.com
