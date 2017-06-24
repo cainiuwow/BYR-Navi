@@ -7,7 +7,8 @@
   style: basic
 
 - id: OpenLaw
-  name: OpenLaw
+  name: 案件检索
+  shortcut: 案件检索
   url: http://openlaw.cn/search/judgement/default?type=&typeValue=&keyword=
   suffix: ''
 
