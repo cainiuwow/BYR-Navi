@@ -11,6 +11,7 @@
   shortcut: 案件检索
   url: http://openlaw.cn/search/judgement/default?type=&typeValue=&keyword=
   suffix: ''
+  style: basic
 
 - id: fatiao
   name: 法条搜索
