@@ -33,6 +33,13 @@
   shortcut: 搜微信
   style: basic
 
+- id: baike
+  name: 百度百科
+  url: http://baike.baidu.com/item/
+  suffix: ''
+  shortcut: 百度百科
+  style: basic
+
 - id: taobao
   name: 淘宝
   url: https://s.taobao.com/search?q=
