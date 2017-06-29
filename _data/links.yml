@@ -327,3 +327,7 @@
     - name: 百度脑图
       style: basic
       url: http://naotu.baidu.com
+           
+    - name: Habitica
+      style: basic
+      url: https://habitica.com
