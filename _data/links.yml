@@ -67,6 +67,10 @@
       style: basic
       url: https://www.alitrip.com
 
+    - name: 百度网盘
+      style: basic
+      url: https://pan.baidu.com/
+
     - name: 百度地图
       icon: marker red
       style: basic
