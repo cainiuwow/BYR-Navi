@@ -97,6 +97,10 @@
       style: blue
       url: http://www.zhihu.com/
 
+    - name: 收趣
+      style: orange
+      url: http://shouqu.me/
+
     - name: Quora
       icon: quora red
       style: basic
@@ -197,6 +201,10 @@
     - name: 诉讼费计算
       style: basic
       url: http://www.cnado.com
+
+    - name: Alpha
+      style: orange
+      url: http://alphalawyer.cn/
 
     - name: 利息计算
       style: basic
