@@ -487,7 +487,7 @@ var BaiduSuggestion = (function() {
         L(".bdSug_mo td", "font-weight:bold;");
         L(".bdSug_pre", "padding:0;margin:0;");
         L(".bdsug_copy", "margin:0;background:transparent url(https://www.baidu.com/img/bd.gif) no-repeat;font-size:13px;color:#77c;text-decoration:none;padding:0 2px 0 16px;") }
-    A());
+    A();
     var H = document.body.getElementsByTagName("INPUT");
     for (var K = 0, F = H.length; K < F; K++) {
         var M = H[K];
