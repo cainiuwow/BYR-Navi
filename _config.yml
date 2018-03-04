@@ -5,11 +5,11 @@ timezone: Asia/Shanghai
 
 name: 法林导航 · Falin-Navi
 author: 张明浩
-author_url: http://cainiu.de
+author_url: http://falv123.xyz
 description: 专注于提高法律人的工作效率
 keywords: 法林导航, Falin-Navi, 法林, 导航, Navi, Navigation
 url: https://falin.xyz
-contact: i[at]falin[dot]xyz
+contact: i[at]cainiu[dot]de
 
 logo: /images/logo.png
 logo_dark: /images/logo-dark.png
@@ -29,3 +29,4 @@ exclude:
 - Gemfile.lock
 - script
 - vendor
+
