@@ -95,7 +95,7 @@
     links:
     - name: 法林合同条款库
       style: orange
-      url: http://www.falv123.xyz
+      url: http://falv123.xyz/doku.php
 
     - name: 知乎
       style: blue
@@ -234,11 +234,6 @@
       style: basic
       url: http://www.zuiming.net/51.html
 
-    - name: 法林合同条款库
-      style: orange
-      url: http://www.falv123.xyz/
-
-
 - section: byr
   categories:
   - category: 企业公示系统
@@ -350,7 +345,3 @@
     - name: 文件在线转换
       style: basic
       url: https://convertio.co/zh/
-
-    - name: 法林合同条款库
-      style: basic
-      url: http://www.falv123.xyz
