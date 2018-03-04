@@ -93,6 +93,10 @@
 
   - category: 知识
     links:
+    - name: 法林合同条款库
+      style: orange
+      url: http://www.falv123.xyz
+
     - name: 知乎
       style: blue
       url: http://www.zhihu.com/
@@ -107,7 +111,7 @@
       url: http://baike.baidu.com/    
 
     - name: 极忆
-      style: slate
+      style: yellow
       url: https://imemoryer.com
 
     - name: 司法部
