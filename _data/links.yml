@@ -149,7 +149,7 @@
   - category: 法律/案例检索
     links:
     - name: 无訟案例
-      style: basic
+      style: blue
       url: http://www.itslaw.com/bj
 
     - name: 北大法宝
