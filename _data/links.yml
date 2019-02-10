@@ -100,7 +100,7 @@
     - name: 知乎
       style: blue
       url: http://www.zhihu.com/
-
+  
     - name: Quora
       icon: quora red
       style: basic
@@ -156,9 +156,9 @@
       style: basic
       url: http://vip.chinalawinfo.com/
 
-    - name: 北京律协
+    - name: 元典智库
       style: basic
-      url: http://beijinglawyers.chinalawinfo.com
+      url: http://www.chineselaw.com
 
     - name: OpenLaw
       style: basic
@@ -197,6 +197,10 @@
     - name: 文书样式
       style: red
       url: http://www.court.gov.cn/susongyangshi-75.html
+      
+    - name: 错别字校对
+      style: orange
+      url: http://www.cuobiezi.net
 
     - name: 诉讼费计算
       style: basic
